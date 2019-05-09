@@ -11,7 +11,7 @@
 
 body {
   background: #fff;
-  color: #444;
+  color: #675444;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -43,6 +43,7 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+  
 }
 
 /* Back to top button */
@@ -165,13 +166,14 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+ background-color:  rgb(243, 165, 20)!important;
 }
 
 #header.header-scrolled,
 #header.header-pages {
   height: 70px;
   padding: 15px 0;
-  background-color: #fff;
+  background-color: #F9BE4F!important;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -192,8 +194,9 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #413e66;
+  color: #ffffff;
   text-decoration: none;
+  font-weight: bold;
 }
 
 #header .logo img {
@@ -214,24 +217,29 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/pet55.png") center top no-repeat;
+  background: #fbf4de center top no-repeat;
   background-size: cover;
 }
 #intro2 {
   width: 100%;
   height: 20vh;
   position: relative;
-  background: #f5f8fd;
+  background: #fbf4de;
   background-size: cover;
 }
 
 #intro .intro-info h2 {
-  color: #413e66;
+  color: #675444;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
-
+#intro .intro-info h3 {
+  color: #675444;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 700;
+}
 #intro .intro-info h2 span {
   color: #1bb1dc;
 }
@@ -284,7 +292,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  color: #ffffff;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -296,7 +304,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #1bb1dc;
+  color: #665444;
   text-decoration: none;
 }
 
@@ -500,7 +508,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #f5f8fd;
+  background: #fbf4de;
 }
 
 /* About Us Section
@@ -1229,7 +1237,7 @@ h6 {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #f5f8fd;
+  background: #fbf4de;
 }
 
 #footer .footer-top .footer-info {
@@ -1475,7 +1483,7 @@ h6 {
 
 @media (min-width: 992px) {
   #intro .intro-info {
-    padding-top: 80px;
+    padding-bottom: 20%;
   }
 
   #testimonials .testimonial-item p {
