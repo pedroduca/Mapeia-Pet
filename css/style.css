@@ -1483,7 +1483,7 @@ h6 {
 
 @media (min-width: 992px) {
   #intro .intro-info {
-    padding-bottom: 20%;
+    padding-bottom: 0%;
   }
 
   #testimonials .testimonial-item p {
