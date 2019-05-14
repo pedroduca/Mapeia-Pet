@@ -89,10 +89,31 @@
       <div class="row">
         <div class="col-lg-12">
           <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
+            
+            <div class="dropdown" data-control-type="boot-filter-drop-down" data-control-name="category-filter" data-control-action="filter">
+
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown-menu-1" aria-expanded="false">					
+                <span data-type="selected-text">Estado</span>
+                <span class="caret"></span>						
+              </button>
+  
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-menu-1">
+  
+                <li data-filter=".filter-sc">SC</li>
+                
+                <li data-filter="filter-SP">SP</li>
+                
+                <li data-filter=".filter-rs">RS</li>
+
+                <li data-filter=".filter-RJ">RJ</li>  
+              </ul>						  
+            </div>
+            <!--  
+            <li data-filter="*" class="filter-active">Estado</li>           
             <li data-filter=".filter-sc">SC</li>
             <li data-filter=".filter-SP">SP</li>
-            <li data-filter=".filter-RS">RS</li>
+            <li data-filter=".filter-RS">RS</li> -->
+          
           </ul>
         </div>
       </div>
@@ -140,12 +161,12 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-RS">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-SP">
           <div class="portfolio-wrap">
             <img src="img/portfolio/OngViralata.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4><a href="#">Card 2</a></h4>
-              <p>Card</p>
+              <h4><a href="#">Ong Vira-Lata</a></h4>
+              <p>Organização de proteção aos animais de criciuma</p>
               <div>
                 <a href="img/portfolio/OngViralata.png" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
