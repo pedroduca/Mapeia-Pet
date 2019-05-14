@@ -11,7 +11,30 @@
 
 
 
+/*-------------------------------*/
+/*-------------------------------*/
+.card-header {background-color:  rgb(243, 165, 20)!important;
+}
 
+.social-icons {
+  text-align: center;
+  }  
+.social-icons a {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons a {
+  border-bottom: none;
+  }
+.social-icons a img {
+  width:40px;
+  height:40;
+  margin-right: 20px;
+}
+/*-------------------------------*/
+/*-------------------------------*/
 body {
   background: #fff;
   color: #675444;
