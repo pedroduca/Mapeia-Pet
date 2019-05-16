@@ -90,37 +90,31 @@
         <div class="col-lg-12">
           <ul id="portfolio-flters">
             
-            <div class="dropdown" data-control-type="boot-filter-drop-down" data-control-name="category-filter" data-control-action="filter">
-
-              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown-menu-1" aria-expanded="false">					
-                <span data-type="selected-text">Estado</span>
-                <span class="caret"></span>						
+            <div class="dropdown ">
+              <button class="btn btn-secondary dropdown-toggle filter-active" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Estados
               </button>
-  
-              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-menu-1">
-  
-                <li data-filter=".filter-sc">SC</li>
-                
-                <li data-filter="filter-SP">SP</li>
-                
-                <li data-filter=".filter-rs">RS</li>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+             
 
-                <li data-filter=".filter-RJ">RJ</li>  
-              </ul>						  
+                <li  data-filter="*" class="dropdown-item" href="#">Todos</li>
+                <li data-filter=".filter-sc" class="dropdown-item" href="#">Santa Catarina</li>
+                <li data-filter=".filter-sp" class="dropdown-item" href="#">São Paulo</li>
+                <li data-filter=".filter-rs" class="dropdown-item" href="#">Rio Grande do Sul</li>
+             
+                
+              </div>
             </div>
-            <!--  
-            <li data-filter="*" class="filter-active">Estado</li>           
-            <li data-filter=".filter-sc">SC</li>
-            <li data-filter=".filter-SP">SP</li>
-            <li data-filter=".filter-RS">RS</li> -->
-          
+
+        
+            
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-sc">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-SP">
           <div class="portfolio-wrap">
             <img src="img/portfolio/OngEpet.png" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -147,7 +141,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-RS" data-wow-delay="0.2s">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rs" data-wow-delay="0.2s">
           <div class="portfolio-wrap">
             <img src="img/portfolio/OngNaruaNuncaMais.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -161,7 +155,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-SP">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-sp">
           <div class="portfolio-wrap">
             <img src="img/portfolio/OngViralata.png" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -175,7 +169,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-SP" data-wow-delay="0.1s">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-sp" data-wow-delay="0.1s">
           <div class="portfolio-wrap">
             <img src="img/portfolio/OngSOS.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -189,7 +183,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-SP" data-wow-delay="0.2s">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-sp" data-wow-delay="0.2s">
           <div class="portfolio-wrap">
             <img src="img/portfolio/OngSos2.png" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -203,7 +197,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-SP">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-sp">
           <div class="portfolio-wrap">
             <img src="img/portfolio/OngCPA.png" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -217,7 +211,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-SP" data-wow-delay="0.1s">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-sp" data-wow-delay="0.1s">
           <div class="portfolio-wrap">
             <img src="img/portfolio/ONGPata.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -231,7 +225,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-SC" data-wow-delay="0.2s">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-sc" data-wow-delay="0.2s">
           <div class="portfolio-wrap">
             <img src="img/portfolio/Ong8.png" class="img-fluid" alt="">
             <div class="portfolio-info">
