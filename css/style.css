@@ -863,7 +863,7 @@ h6 {
   display: block;
   font-size: 16px;
   line-height: 20px;
-  color: #413e66;
+  color: #ffe0b2;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 10px;
@@ -978,7 +978,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #282646;
+  background: #ffe0b2;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
